@@ -1,4 +1,4 @@
-# R8 rules for HyperBoost Engine Pro.
+# R8 rules for Pfiveboost.
 #
 # Shrinking is enabled for release builds. These rules exist because two things in the app are
 # reached by name at runtime rather than through a direct reference, which R8 cannot see.
@@ -13,9 +13,9 @@
 # --- App components --------------------------------------------------------------------------
 # Services, the accessibility service and the quick-settings tile are declared in the manifest and
 # instantiated by the system.
--keep class com.hyperboost.engine.services.** { *; }
--keep class com.hyperboost.engine.MainActivity { *; }
--keep class com.hyperboost.engine.HyperBoostApp { *; }
+-keep class com.pfiveboost.p5.services.** { *; }
+-keep class com.pfiveboost.p5.MainActivity { *; }
+-keep class com.pfiveboost.p5.PfiveboostApp { *; }
 
 # --- Stack traces ----------------------------------------------------------------------------
 # Keep line numbers so a user-submitted crash report stays actionable, but rename the source file so

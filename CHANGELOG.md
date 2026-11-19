@@ -37,7 +37,7 @@
 
 > Re-issued build. If you are on an older version, install this APK manually once: those builds stop in-app downloads at the first progress update.
 
-- New: per-game Android Game Mode (Performance / Standard / Battery), and a **HyperBoost Boost** Quick Settings tile that runs Master Boost without opening the app.
+- New: per-game Android Game Mode (Performance / Standard / Battery), and a **Pfiveboost Boost** Quick Settings tile that runs Master Boost without opening the app.
 - Fixed: in-app downloads failed immediately with `Update failed: Flags = '('` because a `%` in the progress line was not escaped.
 - Updates: `version.json` is published with each release, so a re-issued build is detected even when the version name is unchanged.
 

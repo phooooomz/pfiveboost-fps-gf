@@ -1,8 +1,8 @@
-# Privacy Policy — HyperBoost Engine Pro
+# Privacy Policy — Pfiveboost
 
 **Last updated: October 28, 2026**
 
-HyperBoost Engine Pro ("the App") is an Android gaming utility maintained by A-124. This policy explains what the App handles, why, and the choices you have.
+Pfiveboost ("the App") is an Android gaming utility maintained by phooooomz. This policy explains what the App handles, why, and the choices you have.
 
 ## Information the App handles
 
@@ -50,4 +50,4 @@ This policy may be updated when the App's features or data practices change. The
 
 For privacy questions or deletion requests, open an issue in the project repository:
 
-https://github.com/A-124/hyperboost-engine-pro/issues
+https://github.com/phooooomz/pfiveboost/issues

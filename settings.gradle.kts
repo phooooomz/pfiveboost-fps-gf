@@ -22,6 +22,6 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "HyperBoost"
+rootProject.name = "Pfiveboost"
 
 include(":app")

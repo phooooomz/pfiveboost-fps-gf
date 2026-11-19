@@ -21,7 +21,7 @@ Release notes for versions before 1.7.3. The current file is [../CHANGELOG.md](.
 ### Fixes
 - Per-game resolution is now a render scale (0.2× / 0.4× / 0.6× / 0.8× / 1×) applied only while the selected game is in front. The previous display is restored when you leave the game or close the app. The global resolution preset card was removed.
 - Lowered the display and density bounds so 0.2× can work on 1080p panels.
-- Fixed switches flipping back on after being disabled. Read-back now requires both the system value and HyperBoost's applied flag, so a pre-existing device setting is never mistaken for a tweak the app applied.
+- Fixed switches flipping back on after being disabled. Read-back now requires both the system value and Pfiveboost's applied flag, so a pre-existing device setting is never mistaken for a tweak the app applied.
 - In-app updates open Android's system installer through a granted `FileProvider` URI. The withdrawn v1.7.0 build has been removed from the releases page.
 - This patch is the first build with the corrected render-scale and toggle-state behavior.
 
@@ -112,7 +112,7 @@ Release candidate for v1.7.0. See the 1.7.0 notes below for the full change list
 
 ### Rootless tools
 - Added a Shizuku network ping check that measures average latency to Cloudflare.
-- Added a per-app background restriction switch for user apps; HyperBoost remembers each app's previous standby policy and restores it when switched off or when using Restore.
+- Added a per-app background restriction switch for user apps; Pfiveboost remembers each app's previous standby policy and restores it when switched off or when using Restore.
 
 ### Release
 - Correct release signing fingerprint extraction and normalize its formatting before comparison.
@@ -124,7 +124,7 @@ Release candidate for v1.7.0. See the 1.7.0 notes below for the full change list
 - Kept SHA-256 verification, signature checks, and the guided reinstall flow for incompatible update signatures.
 
 ### Release notes
-- The in-app updater reads releases from the public `A-124/hyperboost-engine-pro` repository; the APK must be published there as well as in this private source repository.
+- The in-app updater reads releases from the public `phooooomz/pfiveboost` repository; the APK must be published there as well as in this private source repository.
 - The previous release was debug-signed. Android may require uninstalling v1.3.9 before installing v1.4.0; consistent in-place updates need a persistent release keystore configured in GitHub Actions.
 
 ## 1.3.9 - 2026-10-21
@@ -133,7 +133,7 @@ Release candidate for v1.7.0. See the 1.7.0 notes below for the full change list
 - Added an in-app feedback form with Idea, Bug, and Other categories.
 - Sends feedback to a write-only Firestore collection after anonymous Firebase sign-in; includes app and Android versions and device model.
 - Added Firestore security rules and Firebase setup instructions.
-- Connected the Android app to the HyperBoost Firebase project.
+- Connected the Android app to the Pfiveboost Firebase project.
 
 ## 1.3.8 - 2026-10-21
 

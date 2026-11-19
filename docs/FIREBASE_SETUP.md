@@ -1,13 +1,13 @@
 # Firebase feedback (optional)
 
-HyperBoost can send user-initiated feedback through Firebase Authentication (anonymous) and Cloud Firestore. This is optional: the public source deliberately does **not** include the maintainer's `app/google-services.json`, `.firebaserc`, or Firebase project details.
+Pfiveboost can send user-initiated feedback through Firebase Authentication (anonymous) and Cloud Firestore. This is optional: the public source deliberately does **not** include the maintainer's `app/google-services.json`, `.firebaserc`, or Firebase project details.
 
 Without a Firebase configuration the app still builds and runs. The feedback form reports that this build has no Firebase configuration and offers **Send on GitHub** instead, which opens a pre-filled issue and needs no backend.
 
 ## Enable feedback in your own build
 
 1. Create a Firebase project in the [Firebase console](https://console.firebase.google.com/).
-2. Add an Android app with the package name `com.aistudio.hyperboost.mkvxyz`.
+2. Add an Android app with the package name `com.pfiveboost.p5`.
 3. Enable **Authentication → Sign-in method → Anonymous**.
 4. Create a **Cloud Firestore** database in production mode.
 5. Download `google-services.json` and place it at `app/google-services.json`. This file is git-ignored.

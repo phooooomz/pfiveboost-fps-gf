@@ -1,6 +1,6 @@
 # Third-party notices
 
-HyperBoost Engine Pro includes or links against the following third-party components.
+Pfiveboost includes or links against the following third-party components.
 The license shipped with each artifact governs; this list is informational.
 
 ## Firebase and Google Play services
@@ -32,7 +32,7 @@ tests and are not shipped in the app.
 
 Several "More Rootless Tools" (window blur toggle, thermal override with guard, gyro check,
 auto tap, freeze apps) are inspired by the feature set of Benimaru Tool.
-These features were re-implemented for HyperBoost Engine Pro. No source code was copied.
+These features were re-implemented for Pfiveboost. No source code was copied.
 
 Benimaru Tool is licensed under the MIT License:
 

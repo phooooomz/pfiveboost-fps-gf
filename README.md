@@ -1,6 +1,6 @@
 <div align="center">
 
-![Pfiveboost — Pfiveboost Your Gaming Experience](assets/hyperboost-banner.svg)
+![Pfiveboost — Pfiveboost Your Gaming Experience](assets/pfiveboost-banner.svg)
 
 # ⚡ Pfiveboost
 
@@ -8,12 +8,12 @@
 
 A gaming companion for Android that brings supported system tuning, live performance telemetry, game profiles, floating overlays, and automation tools into one place.
 
-[![Latest Release](https://img.shields.io/github/v/release/A-124/hyperboost-engine-pro?style=for-the-badge&color=7c3aed)](https://github.com/A-124/hyperboost-engine-pro/releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/phooooomz/pfiveboost?style=for-the-badge&color=7c3aed)](https://github.com/phooooomz/pfiveboost/releases/latest)
 [![Android](https://img.shields.io/badge/Android-8.0%2B-3ddc84?style=for-the-badge&logo=android&logoColor=white)](https://developer.android.com/)
 [![Shizuku](https://img.shields.io/badge/Works_with-Shizuku-007ACC?style=for-the-badge&logo=android&logoColor=white)](https://shizuku.rikka.app/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-[🌐 Official Website](https://hyperboost-engine-pro.vercel.app) · [⬇️ Latest APK](https://github.com/A-124/hyperboost-engine-pro/releases/latest) · [📋 All Releases](https://github.com/A-124/hyperboost-engine-pro/releases) · [🐛 Report a Bug](https://github.com/A-124/hyperboost-engine-pro/issues)
+[⬇️ Latest APK](https://github.com/phooooomz/pfiveboost/releases/latest) · [📋 All Releases](https://github.com/phooooomz/pfiveboost/releases) · [🐛 Report a Bug](https://github.com/phooooomz/pfiveboost/issues)
 
 </div>
 
@@ -86,7 +86,7 @@ The app is designed to work without root. Shizuku provides elevated ADB-level ac
 
 ## Install
 
-1. Open the [latest official GitHub release](https://github.com/A-124/hyperboost-engine-pro/releases/latest).
+1. Open the [latest official GitHub release](https://github.com/phooooomz/pfiveboost/releases/latest).
 2. Download `Pfiveboost-Engine-Pro-<version>.apk` and check it against `SHA256SUMS.txt`.
 3. Install the APK. Android may ask you to allow installation from the browser or file manager you used.
 4. Start Shizuku and authorize Pfiveboost if the selected feature requires it.

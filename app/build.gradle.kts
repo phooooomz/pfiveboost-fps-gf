@@ -11,7 +11,7 @@ fun env(name: String, default: String): String =
   System.getenv(name)?.takeIf { it.isNotBlank() } ?: default
 
 android {
-  namespace = "com.hyperboost.engine"
+  namespace = "com.pfiveboost.p5"
   compileSdk { version = release(36) { minorApiLevel = 1 } }
 
   defaultConfig {

@@ -30,7 +30,7 @@
     </queries>
 
     <application
-        android:name=".HyperBoostApp"
+        android:name=".PfiveboostApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:enableOnBackInvokedCallback="true"
