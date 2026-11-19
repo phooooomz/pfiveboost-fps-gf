@@ -1,1 +1,122 @@
-# pfiveboost-v0.0.1
+<div align="center">
+
+![Pfiveboost — Pfiveboost Your Gaming Experience](assets/hyperboost-banner.svg)
+
+# ⚡ Pfiveboost
+
+### Android Gaming Toolkit · Shizuku · Rootless Tuning · Floating Tools
+
+A gaming companion for Android that brings supported system tuning, live performance telemetry, game profiles, floating overlays, and automation tools into one place.
+
+[![Latest Release](https://img.shields.io/github/v/release/A-124/hyperboost-engine-pro?style=for-the-badge&color=7c3aed)](https://github.com/A-124/hyperboost-engine-pro/releases/latest)
+[![Android](https://img.shields.io/badge/Android-8.0%2B-3ddc84?style=for-the-badge&logo=android&logoColor=white)](https://developer.android.com/)
+[![Shizuku](https://img.shields.io/badge/Works_with-Shizuku-007ACC?style=for-the-badge&logo=android&logoColor=white)](https://shizuku.rikka.app/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
+[🌐 Official Website](https://hyperboost-engine-pro.vercel.app) · [⬇️ Latest APK](https://github.com/A-124/hyperboost-engine-pro/releases/latest) · [📋 All Releases](https://github.com/A-124/hyperboost-engine-pro/releases) · [🐛 Report a Bug](https://github.com/A-124/hyperboost-engine-pro/issues)
+
+</div>
+
+---
+
+## App screenshots
+
+<p align="center">
+  <img src="assets/Screenshot.jpg" alt="Pfiveboost Boost tab with Master Boost and module toggles" width="32%">
+  <img src="assets/Screenshot2.jpg" alt="Pfiveboost Tools tab with rootless utilities and system customization" width="32%">
+  <img src="assets/Screenshot3.jpg" alt="Pfiveboost Games tab with per-game profiles and AOT compilation" width="32%">
+</p>
+
+## About Pfiveboost
+
+**Pfiveboost** is an Android gaming toolkit that makes supported device controls and gaming utilities easier to find and manage. It combines Shizuku-backed tuning, available performance telemetry, per-game preferences, floating tools, and restore support in one app.
+
+The app is designed to work without root. Shizuku provides elevated ADB-level access for supported operations, while overlays and automation may need their own Android permissions. What can be read or changed depends on the Android release, device manufacturer, game, permissions, and active Shizuku session.
+
+> **Important:** results depend on Android version, OEM restrictions, Shizuku authorization, and the device's thermal/power policies. A control being available in the UI does not guarantee that every device permits it. The app reports unsupported or rejected operations instead of promising universal FPS gains.
+
+## Features
+
+### Gaming hub and profiles
+- **Master Boost:** one place to run supported tuning actions, also available from the Quick Settings tile.
+- **Per-game profiles:** keep game-related preferences organized, including an Android Game Mode choice (Performance / Standard / Battery, Android 12+).
+- **Quick Settings tile:** add the **Pfiveboost Boost** tile to run Master Boost without opening the app.
+- **Refresh-rate selection:** choose from rates reported as supported by the device.
+- **More tuning modules:** cached-apps freezer, adaptive brightness off and a refresh-rate overlay.
+- **Quick access to tools:** open gaming controls and overlays from the dashboard.
+
+### Live telemetry and floating overlays
+- **Live FPS / frame-pacing HUD:** displays frame-rate information when Android exposes usable data for the foreground app.
+- **Performance telemetry:** available battery, memory, temperature, and power readings.
+- **Crosshair overlay:** configurable on-screen crosshair for compatible games and devices.
+- **Floating tools:** optional overlay controls that stay accessible while using supported apps.
+
+### Display, input, and system tuning
+- **Display information:** view the current display size and density. The app does not change them.
+- **Refresh-rate controls:** applies supported settings and can restore the previous behavior.
+- **Touch settings:** supported touch-prediction and debounce options where the device permits.
+- **Animation controls:** adjusts supported window and transition animation settings.
+- **Graphics / rendering options:** selected Android rendering and SurfaceFlinger-related controls where supported.
+- **Wi-Fi and network settings:** selected network-related tuning options exposed by the device.
+- **Power and background controls:** supported sustained-performance, battery-management, background-process, and game Do Not Disturb options.
+- **Storage maintenance:** a supported maintenance action using Android's idle-maintenance tools.
+
+### Automation tools
+- **Auto Tap:** floating tap controls for repeated input, where configured and permitted.
+- **Game detection:** optional accessibility service that reports the foreground game faster for per-game profiles. Auto Tap uses Shizuku and does not need accessibility.
+- **Permission-guided setup:** entry points to configure Shizuku, overlay, and accessibility access as needed.
+
+### Restore and support
+- **Restore original settings:** original values are snapshotted before supported settings are changed and used when restoring.
+- **Read-back checks:** selected operations are checked against the device's reported state where possible.
+- **Thermal-aware safeguards:** some options include guards intended to reduce unsafe or unsuitable use.
+- **Status and error feedback:** unsupported or rejected operations are reported rather than silently treated as successful.
+- **Opt-in capability report:** off by default; records which shell operations a device accepts or rejects, as a normalized command signature only, to improve compatibility by Android version.
+- **In-app feedback:** optional; requires your own Firebase project (see below). When Firebase is unavailable or a submission fails, the dialog offers **Send on GitHub**, which opens a pre-filled issue in the project repository.
+
+> **Compatibility note:** Android and device manufacturers restrict different system interfaces. Some readings or controls may be unavailable, and successful application of a setting does not guarantee a specific FPS result. Avoid forcing sustained performance at the expense of device temperature or stability.
+
+## Requirements
+
+- **Android:** Android 8.0 (API 26) or later, with feature-specific compatibility.
+- **Shizuku:** install and start [Shizuku](https://shizuku.rikka.app/) and authorize Pfiveboost for Shizuku-backed operations. See [docs/SHIZUKU_SETUP.md](docs/SHIZUKU_SETUP.md).
+- **Overlay permission:** needed for the floating HUD and crosshair tools.
+- **Accessibility permission:** optional; enables faster foreground-game detection for profiles.
+- Grant only the permissions needed for the tools you choose to use.
+
+## Install
+
+1. Open the [latest official GitHub release](https://github.com/A-124/hyperboost-engine-pro/releases/latest).
+2. Download `Pfiveboost-Engine-Pro-<version>.apk` and check it against `SHA256SUMS.txt`.
+3. Install the APK. Android may ask you to allow installation from the browser or file manager you used.
+4. Start Shizuku and authorize Pfiveboost if the selected feature requires it.
+5. Grant overlay or accessibility access only when you want to use tools that need them.
+6. Use **Restore My Original Settings** when you want to revert supported changes.
+
+**Download safety:** use the official release page above, check the version and release notes, and avoid unofficial APK mirrors.
+
+## Updates
+
+This customized build does not include in-app update checks, update prompts, or automatic APK downloads. Install a newer build manually when you choose to update.
+
+## Safety and privacy
+
+- Review each tuning option before enabling it; device and vendor behavior varies.
+- Avoid disabling thermal protection during sustained gaming. Thermal override features remain guarded by automatic temperature limits.
+- Do not share signing keystores, passwords, access tokens, or `.env` files.
+- See [docs/THIRD_PARTY_NOTICES.md](docs/THIRD_PARTY_NOTICES.md) for dependency notices and [docs/PRIVACY_POLICY.md](docs/PRIVACY_POLICY.md) for the privacy policy.
+
+## Display recovery
+
+Current builds do not change display resolution or density. If an older build left the display scaled, connect the phone to ADB and run:
+
+```bash
+adb shell wm size reset
+adb shell wm density reset
+```
+
+Alternatively, start Shizuku and use **Restore My Original Settings** in the app.
+
+## License
+
+Released under the [MIT License](LICENSE). Third-party components remain subject to their respective licenses.
