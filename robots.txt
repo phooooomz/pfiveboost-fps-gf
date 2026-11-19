@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://hyperboost-engine-pro.vercel.app/sitemap.xml
